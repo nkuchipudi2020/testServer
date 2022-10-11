@@ -1,19 +1,31 @@
 {
-  "tasks": [
+  "posts": [
     {
       "id": 1,
-      "task": "Drink water",
-      "done": false
+      "title": "Post 1"
     },
     {
       "id": 2,
-      "task": "Eat food",
-      "done": false
+      "title": "Post 2"
     },
     {
       "id": 3,
-      "task": "Meditate",
-      "done": false
+      "title": "Post 3"
     }
   ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
